@@ -250,4 +250,11 @@ header a:hover {
   #work-grid {
     width: 100%;
   }
+
+  /* Contact me CSS */
+
+  #contact-section {
+    flex-direction: column;
+  }
+
 }
