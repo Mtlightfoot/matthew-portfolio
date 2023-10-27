@@ -52,15 +52,21 @@ header a:hover {
 /* Hero Banner CSS */
 
 .hero-banner {
-  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-image: url(../images/banner.svg);
   background-position: center;
   background-size: cover;
-  text-align: right;
-  padding-top: 125px;
-  padding-right: 125px;
   color: #edececec;
   font-style: italic;
+  padding: 20px 100px;
+}
+
+.hero-banner img {
+  width: 15%;
+  border-radius: 5px;
+  margin-left: 50px;
 }
 
 /* About me */
