@@ -105,6 +105,9 @@ header a:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   filter: brightness(90%);
   text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .grid-item:hover {
@@ -115,17 +118,23 @@ header a:hover {
 
 .grid-item1 {
   background-image: url(../images/cooking.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   grid-column: 1 / 3;
 }
 
 .grid-item2 {
   background-image: url(../images/calculator.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.grid-item3 {
+  background-image: url(../images/sketch.jpg);
+}
+
+.grid-item4 {
+  background-image: url(../images/rock-paper-scissors.png);
+}
+
+.grid-item5 {
+  background-image: url(../images/frontend.jpg);
 }
 
 .grid-text {
@@ -138,3 +147,5 @@ header a:hover {
   font-size: 25px;
   height: 60px;
 }
+
+/* Contact information CSS */
